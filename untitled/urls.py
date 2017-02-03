@@ -19,6 +19,7 @@ from django.contrib import admin
 from evdetest import views
 
 urlpatterns = [
+
     url(r'^admin/', admin.site.urls),
 
     # Bu urlin sonuna yagmur yazinca gelecek html sayfa
