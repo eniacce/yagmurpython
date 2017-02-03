@@ -6,6 +6,17 @@
 <body>
 
 testttttttttttt
+
+
+<form method="post" action="/nedemek">{% csrf_token %}
+    <input type="text" name="ad" placeholder="Ad"/>
+    <input type="text" name="soyad" placeholder="Soyad"/>
+
+    <input type="submit" value="Gonder"/>
+
+
+</form>
+
 </body>
 
 

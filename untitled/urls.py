@@ -24,5 +24,6 @@ urlpatterns = [
 
     # Bu urlin sonuna yagmur yazinca gelecek html sayfa
     # Templates klasoru altinda eklersin eger views.login ustunde ctrl ile sol tusa basarsan views altindaki login fonksiyonu icindeki blogu isletir ve hello html sayfasina yonelir
-    url(r'^yagmur/', views.login)
+    url(r'^yagmur/', views.login),
+    url(r'^nedemek$', views.nebu)
 ]
