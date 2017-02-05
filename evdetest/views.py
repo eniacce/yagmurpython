@@ -1,4 +1,9 @@
+import logging
+
 from django.shortcuts import render, render_to_response
+
+log = logging.getLogger(__name__)
+
 
 
 # Create your views here.
@@ -6,6 +11,7 @@ from django.shortcuts import render, render_to_response
 
 
 def login(request):
+    log.debug("TEST")
     return render(request, "hello.html", {});
 
 
